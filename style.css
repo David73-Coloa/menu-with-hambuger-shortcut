@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .menu-btn {
   float:right;
   display: flex;
@@ -39,10 +40,15 @@ ul {
   /*  height: 100%;
   overflow: auto;*/
 }
+.transition-menu {
+  transition: all 0.55s ease-in;
+}
 .menu-toggled {
   margin-left:15%;
   padding:1px 16px;
+  
 }
+
 li a {
   display: block;
   color: #eeeeee;

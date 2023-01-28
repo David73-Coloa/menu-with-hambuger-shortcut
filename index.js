@@ -1,6 +1,7 @@
 const menuBtn = document.querySelector(".menu-btn");
 const menu = document.querySelector(".menu");
 menuBtn.addEventListener("click", () => {
+  menu.classList.add('transition-menu')
   if (!menu.classList.contains('menu-toggled') ) {
     menu.classList.add('menu-toggled')
     document.querySelector('.list-nav').classList.add('menu-visible')
